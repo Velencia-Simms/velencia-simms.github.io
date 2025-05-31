@@ -10,7 +10,85 @@
 <div id=title> <a href="https://velencia-simms.github.io/home.html"><img src="https://64.media.tumblr.com/ba7860da9a6de11576e52093cf950b67/31abe46ccde82932-f4/s1280x1920/efd4d42afdab6b5665502f34c8cf68274c0e3842.pnj" width="150" height="150"></a>
 </div>
 
-
+<!-- Let it Snow! Provided by the WPress Doctor-->
+<div id="snow"></div>
+<style>
+	#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+</style>
+<script>
+	document.addEventListener('DOMContentLoaded', function(){
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js';
+    script.onload = function(){
+        particlesJS("snow", {
+            "particles": {
+                "number": {
+                    "value": 200,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "size": {
+                    "value": 5,
+                    "random": true,
+                    "anim": {
+                        "enable": false
+                    }
+                },
+                "line_linked": {
+                    "enable": false
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "bottom",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": true,
+                        "rotateX": 300,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    },
+                    "onclick": {
+                        "enable": false
+                    },
+                    "resize": false
+                }
+            },
+            "retina_detect": true
+        });
+    }
+    document.head.append(script);
+});
+</script>
 
 
 <div id=menu align=center><a href="https://velencia-simms.github.io/contact.html"><img src="https://64.media.tumblr.com/8050883348e98687691912a066d9f8ab/6c621fb1001dddd0-4e/s1280x1920/a743832fcbceee6ac61ed25f6b7b6332ea98cbe3.gifv"width="150" height="100"></a>
