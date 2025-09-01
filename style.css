@@ -1,3 +1,10 @@
+/* SPACING BETWEEN IMAGES */
+#images {
+    margin:50px;
+    padding:50px;
+}
+
+
 /* BACK TO TOP */
 
 html {
