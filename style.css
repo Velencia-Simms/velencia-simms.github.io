@@ -1,13 +1,15 @@
 /* SPACING BETWEEN IMAGES */
 
-   .item {
-  margin-right: 10px; /* Adds 10px space to the right of each item */
+   img {
+  margin-right: 10px; /* Adds 10px of space to the right of each image */
 }
 
-/* To avoid extra margin on the last item, you can use: */
-.item:not(:last-child) {
-  margin-right: 10px;
+/* Remove margin from the last image in a row if needed */
+img:last-child {
+  margin-right: 0;
 }
+
+
 
 
 /* BACK TO TOP */
