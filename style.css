@@ -1,13 +1,19 @@
 /* SPACING BETWEEN IMAGES */
 
-   img {
-  margin-right: 10px; /* Adds 10px of space to the right of each image */
+ #divCenter {
+  margin:0px auto;
+  width:960px; 
+  height:auto;
+  padding:10px;
 }
 
-/* Remove margin from the last image in a row if needed */
-img:last-child {
-  margin-right: 0;
-}
+ #divIDOne {
+     margin-right: 0px;
+ }
+
+ #divIDTwo {
+   margin-left: 20px;
+ }
 
 
 
