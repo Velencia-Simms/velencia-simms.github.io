@@ -1,4 +1,8 @@
 /* SPACING BETWEEN IMAGES */
+
+    .element {
+         margin-right: 50px; /* Adds 20px space to the right of the element */
+     }
 #images {
     margin:100px;
     padding:100px;
