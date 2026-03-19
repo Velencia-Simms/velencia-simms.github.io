@@ -57,19 +57,22 @@ html {
 
 /* hover */
 
-<style>
-.zoom {
-  padding: 50px;
-  background-color: green;
-  transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
+.zoom-img {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
 }
 
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.zoom-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all .3s ease;
 }
-</style>
 
-<div class="zoom"></div>
+.zoom-img img:hover {
+  transform: scale(1.2);
+}
+<div class="zoom-img">
+  <img src="https://64.media.tumblr.com/90c1ab663b1cb8f04abb4b4f316ab9a5/6c621fb1001dddd0-b8/s1280x1920/626a5fe97d50a750311a5fd707717b3cee495e35.gifv" alt="This zooms-in really well and smooth">
+</div>
