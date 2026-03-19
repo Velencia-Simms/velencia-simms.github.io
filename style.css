@@ -57,26 +57,15 @@ html {
 
 /* hover */
 
-
-.container {
-  position: relative; /* Container needs relative positioning */
-  display: inline-block;
+.hover-zoom {
+    /* Set the initial size and ensure smooth transition */
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    transition: transform 0.5s ease; /* Smooth transition over 0.5 seconds */
+    cursor: pointer; /* Changes the cursor to a pointer (hand icon) on hover */
 }
 
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: rgba(0, 0, 0, 0.7); /* Dark background for text */
-  color: white;
-  overflow: hidden;
-  width: 100%;
-  height: 0; /* Initially hide the overlay */
-  transition: .5s ease;
-  text-align: center;
-}
-
-.container:hover .overlay {
-  height: 100%; /* Expand overlay on hover */
+.hover-zoom:hover {
+    /* Enlarge the image by 1.2 times when hovered */
+    transform: scale(1.2);
 }
