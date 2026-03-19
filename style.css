@@ -57,15 +57,19 @@ html {
 
 /* hover */
 
-.hover-zoom {
-    /* Set the initial size and ensure smooth transition */
-    width: 200px; /* Adjust size as needed */
-    height: auto;
-    transition: transform 0.5s ease; /* Smooth transition over 0.5 seconds */
-    cursor: pointer; /* Changes the cursor to a pointer (hand icon) on hover */
+<style>
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
-.hover-zoom:hover {
-    /* Enlarge the image by 1.2 times when hovered */
-    transform: scale(1.2);
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+</style>
+
+<div class="zoom"></div>
