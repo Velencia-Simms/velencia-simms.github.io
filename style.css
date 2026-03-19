@@ -57,22 +57,22 @@ html {
 
 /* hover */
 
-.zoom-img {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
+/* [1] The container */
+.img-container {
+  width: 300px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  overflow: hidden; /* Hide the overflowing parts of the zoomed image */
 }
 
-.zoom-img img {
+/* [2] The image itself */
+.img-container img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  transition: all .3s ease;
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  transition: transform 0.5s ease; /* Smooth transition for the zoom effect */
 }
 
-.zoom-img img:hover {
-  transform: scale(1.2);
+/* [3] The zoom effect on hover */
+.img-container:hover img {
+  transform: scale(1.1); /* Zooms the image to 110% of its original size */
 }
-<div class="zoom-img">
-  <img src="https://64.media.tumblr.com/90c1ab663b1cb8f04abb4b4f316ab9a5/6c621fb1001dddd0-b8/s1280x1920/626a5fe97d50a750311a5fd707717b3cee495e35.gifv" alt="This zooms-in really well and smooth">
-</div>
