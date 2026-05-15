@@ -18,6 +18,16 @@
 
 --------
 
+/* TEXT COLOR */
+<head>
+  <style>
+    p { color: white; } /* Changes all paragraph text to red */
+    .highlight { color: blue; } /* Changes elements with class "highlight" to green */
+  </style>
+</head>
+<body>
+</body>
+
 /* FONTS */
 @font-face {
   font-family: 'breamcatcher rg.otf';
