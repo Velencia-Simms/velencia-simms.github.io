@@ -19,9 +19,9 @@
 --------
 
 /* TEXT COLOR */
-.my-text-class {
-    color: white;
-}
+
+p { color: white; }
+
 
 
 /* FONTS */
