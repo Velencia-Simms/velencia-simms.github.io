@@ -29,10 +29,6 @@
     url("https://db.onlinewebfonts.com/t/d4ccc48c66b7c07c692ae80633360821.ttf")format("truetype"),
     url("https://db.onlinewebfonts.com/t/d4ccc48c66b7c07c692ae80633360821.svg#Breamcatcher-Regular")format("svg");
 	
-    font-family: "Dracula-Regular";
-	 src: url("https://github.com/Velencia-Simms/velencia-simms.github.io/blob/master/assets/fonts/DraculaRegular-RpVvW.ttf");
-    src: url("https://github.com/Velencia-Simms/velencia-simms.github.io/blob/3278e6a95a93812a32ebea191b2701d25c0f4d6b/assets/fonts/DraculaRegular-RpVvW.ttf")format("truetype"),
-		
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -42,6 +38,17 @@
 p {
   font-family: 'Breamcatcher-Regular';
   color: white; /* Changes text color to a specific hex */
+
+	
+
+	@font-face {
+		  font-family: "Dracula-Regular";
+	src: url("https://github.com/Velencia-Simms/velencia-simms.github.io/blob/3278e6a95a93812a32ebea191b2701d25c0f4d6b/assets/fonts/DraculaRegular-RpVvW.ttf")format("truetype"),
+		
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+ }
 
 h {
   font-family: 'Dracula-Regular';
