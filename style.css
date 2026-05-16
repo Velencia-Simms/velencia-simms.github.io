@@ -25,6 +25,11 @@ p { color: white; }
 
 
 /* FONTS */
+p {
+  font-family: "breamcatcher", sans-serif;
+}
+
+
 @font-face {
   font-family: 'breamcatcher';
   /* Ensure the path correctly points to your fonts folder */
