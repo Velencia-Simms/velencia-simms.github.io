@@ -34,7 +34,12 @@ p { color: white; }
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  font-color: white;
+}
+
+/* 2. Apply font and color to elements */
+p {
+  font-family: 'breamcatcher', sans-serif;
+  color: #FFFFFF; /* Changes text color to a specific hex */
 }
 
 body {
