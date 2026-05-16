@@ -30,9 +30,11 @@ p { color: white; }
   font-family: 'breamcatcher';
   /* Ensure the path correctly points to your fonts folder */
   src: url('assets/fonts/Breamcatcher-Regular.woff2') format('.woff2');
+	   url('assets/fonts/Breamcatcher-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-  font-color: white; }
+  font-display: swap;
+  font-color: white;
 }
 
 body {
