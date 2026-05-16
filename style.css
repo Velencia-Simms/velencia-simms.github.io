@@ -21,7 +21,7 @@
 /* FONTS */
 
 @font-face {
-  font-family: 'breamcatcher-regular';
+  font-family: 'Breamcatcher-Regular';
   /* Ensure the path correctly points to your fonts folder */
   src: url('assets/fonts/Breamcatcher-Regular.woff2') format('.woff2');
 	   url('assets/fonts/Breamcatcher-Regular.woff') format('woff');
@@ -32,13 +32,13 @@
 
 /* 2. Apply font and color to elements */
 p {
-  font-family: 'breamcatcher-regular', sans-serif;
+  font-family: 'Breamcatcher-Regular', sans-serif;
   color: white; /* Changes text color to a specific hex */
 
-h1 {font-family: 'breamcatcher-regular';}
-h2 {font-family: 'breamcatcher-regular';}
-h3 {font-family: 'breamcatcher-regular';}
-h4 {font-family: 'breamcatcher-regular';}
+h1 {font-family: 'Breamcatcher-Regular';}
+h2 {font-family: 'Breamcatcher-Regular';}
+h3 {font-family: 'Breamcatcher-Regular';}
+h4 {font-family: 'Breamcatcher-Regular';}
 }
 
 body {
