@@ -42,7 +42,7 @@ p {
 	
 
 	@font-face {
-		  font-family: "Dracula-Regular";
+		  font-family: "DraculaRegular-RpVvW";
 	src: url("https://raw.githubusercontent.com/Velencia-Simms/velencia-simms.github.io/master/assets/fonts/DraculaRegular-RpVvW.ttf")format("truetype"),
 		
   font-weight: normal;
@@ -51,7 +51,7 @@ p {
  }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Dracula-Regular', sans-serif;
+  font-family: 'DraculaRegular-RpVvW', sans-serif;
 	color: white; /* Changes text color to a specific hex */
 
 }
