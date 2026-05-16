@@ -29,7 +29,7 @@ p { color: white; }
 @font-face {
   font-family: 'breamcatcher';
   /* Ensure the path correctly points to your fonts folder */
-  src: url('assets/fonts/breamcatcher rg.otf') format('otf');
+  src: url('assets/fonts/breamcatcher rg.otf') format('.woff');
   font-weight: normal;
   font-style: normal;
 }
