@@ -21,7 +21,7 @@
 /* FONTS */
 
 @font-face {
-  font-family: 'breamcatcher';
+  font-family: 'breamcatcher-regular';
   /* Ensure the path correctly points to your fonts folder */
   src: url('assets/fonts/Breamcatcher-Regular.woff2') format('.woff2');
 	   url('assets/fonts/Breamcatcher-Regular.woff') format('woff');
@@ -32,12 +32,12 @@
 
 /* 2. Apply font and color to elements */
 p {
-  font-family: 'breamcatcher', sans-serif;
+  font-family: 'breamcatcher-regular', sans-serif;
   color: white; /* Changes text color to a specific hex */
 }
 
 body {
-  font-family: 'breamcatcher';
+  font-family: 'breamcatcher-regular';
 }
 
 
