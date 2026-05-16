@@ -33,13 +33,13 @@
 
 /* 2. Apply font and color to elements */
 p {
-  font-family: 'Breamcatcher';
+  font-family: 'breamcatcher';
   color: white; /* Changes text color to a specific hex */
 
-h1 {font-family: 'Breamcatcher-Regular';}
-h2 {font-family: 'Breamcatcher-Regular';}
-h3 {font-family: 'Breamcatcher-Regular';}
-h4 {font-family: 'Breamcatcher-Regular';}
+h1 {font-family: 'breamcatcher';}
+h2 {font-family: 'breamcatcher';}
+h3 {font-family: 'breamcatcher';}
+h4 {font-family: 'breamcatcher';}
 }
 
 body {
