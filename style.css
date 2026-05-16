@@ -25,10 +25,6 @@ p { color: white; }
 
 
 /* FONTS */
-p {
-  font-family: "breamcatcher", sans-serif;
-}
-
 
 @font-face {
   font-family: 'breamcatcher';
@@ -39,7 +35,7 @@ p {
 }
 
 body {
-  font-family: 'breamcatcher rg.otf';
+  font-family: 'breamcatcher';
 }
 
 
