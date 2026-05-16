@@ -21,7 +21,7 @@
 /* FONTS */
 
 @font-face {
-  font-family: 'breamcatcher';
+  font-family: 'Breamcatcher-Regular';
   /* Ensure the path correctly points to your fonts folder */
   src: url('https://github.com/Velencia-Simms/velencia-simms.github.io/blob/b8dd72ce671192dbf9a103af76351147b6acf456/assets/fonts/Breamcatcher-Regular.woff2') format('woff2');
 	   url('https://github.com/Velencia-Simms/velencia-simms.github.io/blob/b8dd72ce671192dbf9a103af76351147b6acf456/assets/fonts/Breamcatcher-Regular.woff') format('woff');
@@ -34,14 +34,10 @@
 
 /* 2. Apply font and color to elements */
 p {
-  font-family: 'breamcatcher';
+  font-family: 'Breamcatcher-Regular';
   color: white; /* Changes text color to a specific hex */
 
-h1 {font-family: 'breamcatcher';}
-h2 {font-family: 'breamcatcher';}
-h3 {font-family: 'breamcatcher';}
-h4 {font-family: 'breamcatcher';}
-}
+
 
 body {
   font-family: 'breamcatcher-regular';
