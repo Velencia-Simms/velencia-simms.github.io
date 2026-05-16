@@ -18,12 +18,6 @@
 
 --------
 
-/* TEXT COLOR */
-
-p { color: white; }
-
-
-
 /* FONTS */
 
 @font-face {
@@ -39,7 +33,7 @@ p { color: white; }
 /* 2. Apply font and color to elements */
 p {
   font-family: 'breamcatcher', sans-serif;
-  color: #FFFFFF; /* Changes text color to a specific hex */
+  color: white; /* Changes text color to a specific hex */
 }
 
 body {
