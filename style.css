@@ -50,8 +50,8 @@ p {
   font-display: swap;
  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'DraculaRegular-RpVvW', sans-serif;
+h1 {
+  font-family: 'DraculaRegular-RpVvW';
 	color: white; /* Changes text color to a specific hex */
 
 }
