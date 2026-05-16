@@ -23,10 +23,10 @@
 @font-face {
   font-family: 'breamcatcher';
   /* Ensure the path correctly points to your fonts folder */
-  src: local('breamcatcher'), local('breamcatcher-Regular')
   src: url('https://github.com/Velencia-Simms/velencia-simms.github.io/blob/b8dd72ce671192dbf9a103af76351147b6acf456/assets/fonts/Breamcatcher-Regular.woff2') format('woff2');
 	   url('https://github.com/Velencia-Simms/velencia-simms.github.io/blob/b8dd72ce671192dbf9a103af76351147b6acf456/assets/fonts/Breamcatcher-Regular.woff') format('woff');
  	   url('https://github.com/Velencia-Simms/velencia-simms.github.io/blob/ad57f8a279113a49a351519fb97f77d79458ea24/assets/fonts/Breamcatcher-Regular.ttf') format('truetype');
+ 	   url('https://github.com/Velencia-Simms/velencia-simms.github.io/blob/5fa0823ee40edb3b7b3d45e304eb45779554af8a/assets/fonts/Breamcatcher-Regular.svg') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
