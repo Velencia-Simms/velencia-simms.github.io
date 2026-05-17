@@ -77,7 +77,7 @@ html {
   z-index: 99; /* Sit on top of all elements */
   border: none;
   outline: none;
-  background-color: #ffffff;
+  background-color: white;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -87,7 +87,7 @@ html {
 }
 
 #backToTopBtn:hover {
-  background-color: #555;
+  background-color: white;
 }
 
 
