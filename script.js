@@ -1,22 +1,15 @@
 /* BACK TO TOP */
 
+// Get the button
 let mybutton = document.getElementById("backToTopBtn");
 
-// Show the button when user scrolls down 300px
+// When the user scrolls down 100px from the top, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-
-// Smooth scroll to top
-function scrollToTop() {
-    window.scrollTo({
-        top: 0, 
-        behavior: "smooth"
-    });
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
 }
