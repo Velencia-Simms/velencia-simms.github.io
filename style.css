@@ -65,35 +65,25 @@ body {
 
 /* BACK TO TOP */
 
-html {
-	scroll-behavior: smooth;
+let mybutton = document.getElementById("backToTopBtn");
+
+// Show the button when user scrolls down 300px
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
 }
 
-.back-to-top {
-	position: fixed;
-	bottom: 2rem;
-	right: 2rem;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #151b1d;
-	border-radius: 0.5rem;
-	padding: 0.5rem;
-	text-decoration: none;
-	transition: 0.2s ease-out;
-}
-
-.back-to-top span {
-	color: #FFFFFF;
-	font-size: 3rem;
-	transition: 0.2s ease-out;
-}
-
-.back-to-top:hover {
-	background-color: #9cc5d5 ;
-}
-.back-to-top:hover span {
-	transform: translateY(-4px);
+// Smooth scroll to top
+function scrollToTop() {
+    window.scrollTo({
+        top: 0, 
+        behavior: "smooth"
+    });
 }
 
 
